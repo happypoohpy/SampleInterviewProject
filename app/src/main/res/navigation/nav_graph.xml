@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ProfileFragment">
+
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.sample.interviewproject.presentation.screens.profile.ProfileActivity"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/action_to_friends_fragment"
+            app:destination="@id/FriendsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FriendsFragment"
+        android:name="com.sample.interviewproject.presentation.screens.friends.FriendsActivity"
+        android:label="@string/friends"
+        tools:layout="@layout/activity_friends">
+    </fragment>
+</navigation>

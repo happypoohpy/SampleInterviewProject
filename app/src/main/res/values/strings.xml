@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">InterviewProject</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">About</string>
+    <string name="friends">Friends</string>
+    <string name="see_all">See All</string>
+    <string name="shots">Shots</string>
+
+    <string name="about_title">Bringing Breakthrough Brands To Life</string>
+    <string name="about_body">When left-brained technical developers and brand builders join forces with right-brained creative specialists and visionaries, it sparks iconic moves and ingenuous innovation: breakthrough brands are brought to life!</string>
+    <string name="about_version_format" formatted="false">Version %s</string>
+    <string name="more">More</string>
+    <string name="profile">Profile</string>
+    <string name="favorited">Favorited</string>
+    <string name="close">Close</string>
+</resources>
